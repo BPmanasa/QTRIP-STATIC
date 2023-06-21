@@ -19,6 +19,9 @@ a {
   color: inherit !important;
   text-decoration: none !important;
 }
+.ul{
+  
+}
 footer {
   background: #f1f1f1;
   width: 100%;
@@ -44,6 +47,7 @@ footer {
   /* flex-wrap: wrap; */
 }
 
+
 /* ================================== */
 /* Layout page CSS */
 /* ================================== */
@@ -51,6 +55,7 @@ footer {
 .tile {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+
 }
 .tile img {
   /* TODO: MODULE_CARDS */
@@ -77,12 +82,43 @@ footer {
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
-  /* 2. Position and center the image to scale nicely on all screens. */
+  /* 2. Posiiom */
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .hero-subheading {
   font-size: 24px;
   font-weight: 100;
+  color:white;
+  align-items: center;
+
+
+  
+ 
+}
+
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+
+}
+
+h1{
+  margin: 0;
+  font-size: 48px;
+
+  
+}
+p{
+  font-size: 18px;
+  margin-top: 30px;
 }
 .hero-input {
   width: 80%;
@@ -90,6 +126,9 @@ footer {
   padding: 16px;
   border-radius: 8px;
   border: none;
+  
+  
+  
 }
 
 .nav-link {
